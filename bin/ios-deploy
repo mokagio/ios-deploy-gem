@@ -1,0 +1,2 @@
+absolute_pwd = File.expand_path(File.dirname(__FILE__))
+exec "#{absolute_pwd}/../node_modules/ios-deploy/ios-deploy"
