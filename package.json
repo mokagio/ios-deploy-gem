@@ -1,0 +1,15 @@
+{
+  "name": "ios-deploy-gem",
+  "version": "1.0.0",
+  "description": "TODO: Write a gem description",
+  "main": "index.js",
+  "dependencies": {
+    "ios-deploy": "^1.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
