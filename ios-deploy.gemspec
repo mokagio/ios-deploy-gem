@@ -1,15 +1,15 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'ios/deploy/version'
+require 'ios-deploy/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "ios-deploy"
-  spec.version       = Ios::Deploy::VERSION
+  spec.version       = IosDeploy::VERSION
   spec.authors       = ["Giovanni Lodi"]
   spec.email         = ["giovanni.lodi42@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Mirror of the node module ios-deploy}
+  spec.description   = %q{launch iOS apps iOS devices from the command line (Xcode 6)\nInstall and debug iOS apps without using Xcode. Designed to work on un-jailbroken devices.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
