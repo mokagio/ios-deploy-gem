@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["giovanni.lodi42@gmail.com"]
   spec.summary       = %q{Mirror of the node module ios-deploy}
   spec.description   = %q{launch iOS apps iOS devices from the command line (Xcode 6)\nInstall and debug iOS apps without using Xcode. Designed to work on un-jailbroken devices.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/mokagio/ios-deploy-gem"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
